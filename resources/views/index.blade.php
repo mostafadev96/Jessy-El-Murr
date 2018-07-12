@@ -14,3 +14,12 @@
         @include('secondpart')
     </div>
 @endsection
+@section('part3')
+    <div class="row" style="
+  background-image: linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);
+  background-size: 100% 100%;position: relative;
+  overflow: hidden;">
+        @include('thirdpart')
+    </div>
+
+@endsection
