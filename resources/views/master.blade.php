@@ -12,20 +12,21 @@
     <link href = {{ asset("css/app.css") }} rel="stylesheet" />
     <link href = {{ asset("css/style.min.css") }} rel="stylesheet" />
     <style>
-        body > div:nth-child(3) > div > div.container-fluid > div > div.owl-stage-outer > div > div.owl-item.active > div > img{
-            opacity: 1!important;
-        }
+
+
     </style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src=" {{ asset("js/owl.carousel.min.js") }}"></script>
     <script src=" {{ asset("js/bootstrap.min.js") }}"></script>
     <title>Document</title>
 </head>
-<body style="font-family: Lato;font-size: larger">
+<body style="font-family: Lato;font-size: larger;">
 {{--@include('nav')--}}
 @yield('part1')
 @yield('part2')
 @yield('part3')
+@yield('part4')
+
 
 {{--@include('footer')--}}
 
@@ -33,7 +34,7 @@
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         dots:false,
         stagePadding:332,
         responsive:{
@@ -41,26 +42,53 @@
                 items:1,
                 stagePadding:0
             },
+            200:{
+                items:1,
+                stagePadding:20
+            },
+            400:{
+                items:1,
+                stagePadding:50
+            },
             600:{
                 items:1,
-                stagePadding:0
+                stagePadding:60
             },
             1000:{
                 items:1
             }
         },
         mouseDrag:false,
-        // navText: ["<a role='button' class='prev'><img src='../img/prev.png'/></a>","<a role='button' class='next'><img src='../img/next.png'/></a>"],
         autoplay:false,
         autoplayTimeout:3000,
         autoplayHoverPause:true
     })
-    $(".owl-item.active").find("div").find(".item1").css("position", "absolute");
-    $(".owl-item.active").find("div").find(".item1").css("z-index", "1");
-    $(".owl-item.active").find("div").find("div").find("img").css("opacity", "1");
+
+    $(".owl-item.active >div").css("opacity", "1");
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel();
+    // Go to the next item
+    $('.next').click(function() {
+        console.log('Image current is ' + "bs");
+
+        owl.trigger('next.owl.carousel', [400]);
+    })
+    // Go to the previous item
+    $('.prev').click(function() {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        console.log('Image current is ' + "bs");
+
+        owl.trigger('prev.owl.carousel', [400]);
+    })
+
     $('.owl-carousel').on('changed.owl.carousel',function(property){
         var current = property.item.index;
-        console.log('Image current is ' + current);
+
+        $(".owl-item>div").eq(current).css("opacity", "1");
+        $(".owl-item>div").eq(current-1).css("opacity", "0.1");
+        $(".owl-item>div").eq(current+1).css("opacity", "0.1");
     });
 
 </script>

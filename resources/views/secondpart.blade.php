@@ -1,7 +1,9 @@
 <div class="col-lg-1"></div>
 <div class="col-lg-10" style="position: relative;">
+    <h1 style="font-size: 3rem;margin-top:3.95rem;color: black;position: absolute;z-index: 1">Biography</h1>
     <h1 style="font-size: 3rem;margin-top:4rem;color: black;position: absolute;z-index: 1">Biography</h1>
     <img style="margin-top:8rem;position: absolute;z-index: 1" class="img-fluid" src="{{ asset('horizontallineblue.png') }}" alt="..." >
+    <h1 style="font-size: 3rem;margin-top:4.15rem;color: black;position: absolute;z-index: 1">Biography</h1>
     <div class="row">
         <div class="col-lg-1">
 

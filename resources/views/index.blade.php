@@ -23,3 +23,9 @@
     </div>
 
 @endsection
+@section('part4')
+    <div class="row">
+        @include('fourthpart')
+    </div>
+
+@endsection
