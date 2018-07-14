@@ -12,8 +12,16 @@
     <link href = {{ asset("css/app.css") }} rel="stylesheet" />
     <link href = {{ asset("css/style.min.css") }} rel="stylesheet" />
     <style>
-
-
+        @media screen and (max-width: 676px) {
+            .fourth-viewmore {
+                height: 1060px!important;
+            }
+        }
+        @media screen and (max-width: 575px) {
+            .fourth-viewmore {
+                height: 2000px!important;
+            }
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src=" {{ asset("js/owl.carousel.min.js") }}"></script>
@@ -26,6 +34,7 @@
 @yield('part2')
 @yield('part3')
 @yield('part4')
+@yield('part5')
 
 
 {{--@include('footer')--}}

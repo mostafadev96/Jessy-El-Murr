@@ -53,12 +53,16 @@
             </div>
         </div>
     </div>
-        <button style="background-image:linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);border: solid 1px #ccc;padding: 13px 30px 3px 30px;border-radius: 2.5em;box-shadow: 2px 7px 28px 6px rgba(74, 98, 220, 0.2);position: absolute;z-index: 1;left: 43%;bottom: 5%"><p style="font-size: 1rem;color: white;">View More</p></button>
+    <div class="row" style="position: absolute;z-index: 1;bottom: 2%;left: 44%;">
+        <div class="col-lg-2">
+            <button style="background-image:linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);border: solid 1px #ccc;padding: 13px 30px 3px 30px;border-radius: 2.5em;box-shadow: 2px 7px 28px 6px rgba(74, 98, 220, 0.2);" class="btn"><p style="font-size: 1rem;color: white;">View More</p></button>
+        </div><!-- /col -->
+    </div><!-- /row -->
     <div class="row" style="width: 100%">
         <div class="col-lg-1">
 
         </div>
-        <div class="col-lg-10" style="background: rgb(255, 255, 255);
+        <div class="col-lg-10 fourth-viewmore" style="background: rgb(255, 255, 255);
   background-image: radial-gradient(rgba(0, 0, 0, 0.1) 12%, transparent 0);
   background-size: 60px 60px;position: relative;z-index: 0;height: 1000px;
     ">
