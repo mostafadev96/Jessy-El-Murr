@@ -1,40 +1,32 @@
 @extends('master')
+@section('home')
+<div class="row" style="background-image: url({{ asset('firstbackground.png') }});background-repeat: no-repeat;
+        background-size: 100% 100%;position: relative;
+        overflow: hidden;">
+    @include('firstpart')
+</div>
+<div class="row">
+    @include('secondpart')
+</div>
+<div class="row grediant-background">
+    @include('thirdpart')
+</div>
 
-@section('part1')
-    <div class="row" style="background-image: url({{ asset('firstbackground.png') }});background-repeat: no-repeat;
-            background-size: 100% 100%;position: relative;
-            overflow: hidden;">
-        @include('firstpart')
+<div class="row">
+    @include('fourthpart')
+</div>
 
-    </div>
-@endsection
-@section('part2')
+<div class="row grediant-background">
+    @include('fifthpart')
+</div>
+<div class="row">
+    @include('sixthpart')
+</div>
+<div class="row grediant-background">
+    @include('seventhpart')
+</div>
 
-    <div class="row" >
-        @include('secondpart')
-    </div>
-@endsection
-@section('part3')
-    <div class="row" style="
-  background-image: linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);
-  background-size: 100% 100%;position: relative;
-  overflow: hidden;">
-        @include('thirdpart')
-    </div>
-
-@endsection
-@section('part4')
-    <div class="row">
-        @include('fourthpart')
-    </div>
-
-@endsection
-@section('part5')
-    <div class="row" style="
-  background-image: linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);
-  background-size: 100% 100%;position: relative;
-  overflow: hidden;">
-        @include('fifthpart')
-    </div>
-
+<div class="row">
+    @include('eighthpart')
+</div>
 @endsection
