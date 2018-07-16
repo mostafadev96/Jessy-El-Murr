@@ -65,6 +65,15 @@
     right: 7%;
     top: 59%
 }
+.first-second-btn{
+    position: absolute;
+    z-index: 4;
+    left: calc(50% - 25px);
+    bottom: -13%;
+    border: solid 1px #ccc;
+    border-radius: 2.5em;
+    box-shadow: 2px 7px 28px 6px rgba(74, 98, 220, 0.2)
+}
 
 .thirdpartitem {
     background-image: linear-gradient(132deg, rgb(108, 18, 211) 0%, rgb(74, 98, 220) 100%);
@@ -85,7 +94,7 @@
     }
 
     .fourth-viewmore4 {
-        height: 1200px !important;
+        height: 1450px !important;
     }
 
 }
@@ -129,6 +138,11 @@
 @media screen and (min-width: 300px)  and (max-width: 700px) {
     .pull-below {
         margin-top: 57% !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .first-second-btn {
+        bottom: -103% !important;
     }
 }
 

@@ -22,7 +22,8 @@
                                 <p style="display: block;font-size: 1rem;color: black;padding:0px 40px 0px 50px">is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.</p>
                                 <p style="display: block;font-size: 1rem;color: black;padding:0px 40px 0px 50px">El Murr currently produces and presents Sky News Arabia’s daily segment Taghreedat Al Sabah  which highlights portraits of inspirational young Arabs who have succeeded in making an impact in our digital world.</p>
                                 <p style="display: block;font-size: 1rem;color: black;padding:0px 40px 20px 50px">With over 15 years of media experience, El Murr is a Lebanese-American journalist who has reported for several international TV networks including BBC and Al Jazeera before moving to UAE in 2012.</p>
-                                <button class="button-background" style="position:  absolute;left:30%"><p style="font-size: 1rem;font-weight: bold;color: white;">View More</p></button>                        </div>
+                                <button class="button-background" style="position:  absolute;left:30%"><p style="font-size: 1rem;font-weight: bold;color: white;">View More</p></button>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-1"></div>
     </div>
-    <div class="row" style="margin-top: 40px">
+    <div class="row" style="margin-top: 40px;margin-bottom: 50px">
         <div class="col-lg-1">
         </div>
         <div class="col-lg-10">

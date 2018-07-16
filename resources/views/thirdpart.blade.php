@@ -8,7 +8,7 @@
         </div>
     </div>
     <!--Carousel Wrapper-->
-    <div class="container-fluid" style="margin-top: 30px">
+    <div class="container-fluid" style="margin-top: 30px;margin-bottom: 50px">
             <a class="btn prev1"><img src="{{asset('previcon.png')}}"/></a>
             <a class="btn next1"><img src="{{asset('nexticon.png')}}"/></a>
         <div id="owl-carousel1" class="owl-carousel">
