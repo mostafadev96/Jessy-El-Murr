@@ -65,7 +65,8 @@
     right: 7%;
     top: 59%
 }
-.first-second-btn{
+
+.first-second-btn {
     position: absolute;
     z-index: 4;
     left: calc(50% - 25px);
@@ -140,6 +141,7 @@
         margin-top: 57% !important;
     }
 }
+
 @media screen and (max-width: 991px) {
     .first-second-btn {
         bottom: -103% !important;
@@ -162,6 +164,13 @@
     bottom: 0%;
     display: none;
 
+}
+
+.phrases-secondpart {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    padding:0px 40px 0px 50px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

@@ -1,4 +1,5 @@
 @extends('master')
+@php($data = json_decode($data))
 @section('home')
         <div class="row" style="background-image: url({{ asset('firstbackground.png') }});background-repeat: no-repeat;
                 background-size: 100% 100%;position: relative;

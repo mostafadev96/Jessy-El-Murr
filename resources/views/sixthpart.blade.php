@@ -6,62 +6,54 @@
     <div class="row" style="margin-top: 16.5rem;position: absolute;z-index: 1;width: 100%">
         <div class="col-sm-4">
             <div class="card card-overlayy1" style="background: none;border: none">
-                <img class="card-img-top"  src="{{ asset('sixthphoto.png') }}" alt="Card image cap">
+                <img class="card-img-top"  src="{{ asset($data->lsidegallery->photo) }}" alt="Card image cap">
                 <div class="container-fluid show-info">
                 </div>
                 <div class="container-fluid show-info1">
-                    <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">8/1</p>
+                    <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">{{$data->lsidegallery->size}}/1</p>
                     <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                    <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">Innovative young arabs</h1>
-                    </a>                </div>
+                    <a href={{$data->lsidegallery->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->lsidegallery->title}}</h1>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="card card-overlayy" style="background: none;border: none">
-                        <img class="card-img-top"  src="{{ asset('fifthpartphoto.png') }}" alt="Card image cap">
-                        <div class="container-fluid show-info">
-                        </div>
-                        <div class="container-fluid show-info1">
-                            <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">8/1</p>
-                            <div style="background-color: rgb(255, 255, 255);
+                    @foreach($data->gallery as $post)
+                        <div class="card card-overlayy" style="background: none;border: none;margin-bottom: 30px">
+                            <img class="card-img-top"  src="{{ asset($post->photo) }}" alt="Card image cap">
+                            <div class="container-fluid show-info">
+                            </div>
+                            <div class="container-fluid show-info1">
+                                <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">{{$post->size}}/1</p>
+                                <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                            <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">Innovative young arabs</h1>
-                            </a>
+                                <a href={{$post->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$post->title}}</h1>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card card-overlayy" style="background: none;border: none;margin-top: 56px" >
-                        <img class="card-img-top"  src="{{ asset('fifthpartphoto.png') }}" alt="Card image cap">
-                        <div class="container-fluid show-info">
-                        </div>
-                        <div class="container-fluid show-info1">
-                            <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">8/1</p>
-                            <div style="background-color: rgb(255, 255, 255);
-  width: 50px;
-  height: 4px;margin-bottom: 6px"></div>
-                            <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">Innovative young arabs</h1>
-                            </a>                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
 
         </div>
         <div class="col-sm-4">
             <div class="card card-overlayy2" style="background: none;border: none">
-                <img class="card-img-top"  src="{{ asset('sixthphoto.png') }}" alt="Card image cap">
+                <img class="card-img-top"  src="{{ asset($data->rsidegallery->photo) }}" alt="Card image cap">
                 <div class="container-fluid show-info">
                 </div>
                 <div class="container-fluid show-info1">
-                    <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">8/1</p>
+                    <p class="card-title" style="font-size: 1.1rem;font-weight:bold;color: white">{{$data->rsidegallery->size}}/1</p>
                     <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                    <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">Innovative young arabs</h1>
-                    </a>                </div>
+                    <a href={{$data->rsidegallery->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->rsidegallery->title}}</h1>
+                    </a>
+                </div>
             </div>
         </div>
 

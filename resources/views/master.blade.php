@@ -19,7 +19,7 @@
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Jessy ElMurr</title>
 </head>
 <body style="font-family: Lato ;font-size: larger;">
 {{--@include('nav')--}}
