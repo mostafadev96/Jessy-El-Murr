@@ -15,9 +15,9 @@
                     <h1 style="font-size: 2.3rem;color: black">{{$guest->name}}</h1>
                     <p style="font-size: 1.7rem;color: rgb(108, 18, 211);line-height: 1.2;">{{$guest->job}}</p>
                     <div style="background-color: rgb(107, 21, 211);width: 43px;height: 3px;margin-left: auto;margin-right: auto"></div>
-                    <a href="#" class="social-icons" style="margin-left: 16px"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="social-icons" style="margin-left: 24px"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icons" style="margin-left: 16px"><i class="fas fa-paper-plane" ></i></a>
+                    <a href={{$guest->facebook}} class="social-icons" style="margin-left: 16px"><i class="fab fa-facebook-square"></i></a>
+                    <a href={{$guest->twitter}} class="social-icons" style="margin-left: 24px"><i class="fab fa-twitter"></i></a>
+                    <a href={{$guest->plane}} class="social-icons" style="margin-left: 16px"><i class="fas fa-paper-plane" ></i></a>
                 </div>
             </div>
         @endforeach

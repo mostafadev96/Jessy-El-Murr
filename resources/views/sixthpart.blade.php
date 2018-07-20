@@ -6,7 +6,7 @@
     <div class="row" style="margin-top: 16.5rem;position: absolute;z-index: 1;width: 100%">
         <div class="col-sm-4">
             <div class="card card-overlayy1" style="background: none;border: none">
-                <img class="card-img-top"  src="{{ asset($data->lsidegallery->photo) }}" alt="Card image cap">
+                <img class="card-img-top"  src="{{ asset($data->lsidegallery->photos[0]->photo) }}" alt="Card image cap">
                 <div class="container-fluid show-info">
                 </div>
                 <div class="container-fluid show-info1">
@@ -14,7 +14,8 @@
                     <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                    <a href={{$data->lsidegallery->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->lsidegallery->title}}</h1>
+                    {{--in a tag below we will add modal with description and all photos--}}
+                    <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->lsidegallery->title}}</h1>
                     </a>
                 </div>
             </div>
@@ -24,7 +25,7 @@
                 <div class="col-sm-12">
                     @foreach($data->gallery as $post)
                         <div class="card card-overlayy" style="background: none;border: none;margin-bottom: 30px">
-                            <img class="card-img-top"  src="{{ asset($post->photo) }}" alt="Card image cap">
+                            <img class="card-img-top"  src="{{ asset($post->photos[0]->photo) }}" alt="Card image cap">
                             <div class="container-fluid show-info">
                             </div>
                             <div class="container-fluid show-info1">
@@ -32,7 +33,7 @@
                                 <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                                <a href={{$post->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$post->title}}</h1>
+                                <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$post->title}}</h1>
                                 </a>
                             </div>
                         </div>
@@ -43,7 +44,7 @@
         </div>
         <div class="col-sm-4">
             <div class="card card-overlayy2" style="background: none;border: none">
-                <img class="card-img-top"  src="{{ asset($data->rsidegallery->photo) }}" alt="Card image cap">
+                <img class="card-img-top"  src="{{ asset($data->rsidegallery->photos[0]->photo) }}" alt="Card image cap">
                 <div class="container-fluid show-info">
                 </div>
                 <div class="container-fluid show-info1">
@@ -51,7 +52,7 @@
                     <div style="background-color: rgb(255, 255, 255);
   width: 50px;
   height: 4px;margin-bottom: 6px"></div>
-                    <a href={{$data->rsidegallery->link}}><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->rsidegallery->title}}</h1>
+                    <a href="#"><h1 class="card-title" style="font-size: 1.4rem;font-weight: bold;color: white">{{$data->rsidegallery->title}}</h1>
                     </a>
                 </div>
             </div>

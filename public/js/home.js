@@ -150,3 +150,28 @@ $(".card-overlayy2").hover(function () {
         $(".card-overlayy2").eq(index).find("div.show-info1").css("display", "none");
         console.log(index);
     });
+// $(function() {
+//     $('a.first-second-btn').bind('click',function(event){
+//         console.log("first CLICKED");
+//         var $anchor = $(this);
+//         $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1000);
+//
+//         event.preventDefault();
+//     });
+// });
+$('a.first-second-btn').bind('click',function(event){
+    console.log("first CLICKED");
+    $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+    event.preventDefault();
+});
+
+var coll = document.getElementsByClassName("collapsible");
+    coll[0].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });

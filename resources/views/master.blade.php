@@ -22,11 +22,14 @@
     <title>Jessy ElMurr</title>
 </head>
 <body style="font-family: Lato ;font-size: larger;">
-{{--@include('nav')--}}
+@include('navbar')
 @yield('home')
+@yield('biography')
+@yield('videos')
+@include('footer')
 
 {{--@include('footer')--}}
-
+<script src=" {{ asset("js/jquery-3.3.1.js") }}"></script>
 <script src=" {{ asset("js/owl.carousel.min.js") }}"></script>
 <script src=" {{ asset("js/bootstrap.min.js") }}"></script>
 <script src=" {{ asset("js/home.js") }}"></script>
