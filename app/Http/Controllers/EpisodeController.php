@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Episode;
 use Illuminate\Http\Request;
 
 class EpisodeController extends Controller
@@ -13,7 +14,9 @@ class EpisodeController extends Controller
      */
     public function index()
     {
-        //
+        $episodes = Episode::paginate(12,['*'],'episodepage');
+        return view('episodes', ['episodes' => $episodes]);
+//        return $episodes;
     }
 
     /**

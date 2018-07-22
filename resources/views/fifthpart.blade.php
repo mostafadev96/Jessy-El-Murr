@@ -18,7 +18,7 @@
                         <div class="card" style="background: none;border: none">
                             <img class="card-img-top"  src="{{ asset($episode->photo) }}" alt="Card image cap">
                             <div class="card-body" style="padding: 1.25rem 0rem">
-                                <h1 class="card-title" style="font-size: 1.6rem;font-weight: bold;color: white">{{$episode->title}}</h1>
+                                <a href={{$episode->link}}><h1 class="card-title" style="font-size: 1.6rem;font-weight: bold;color: white">{{$episode->title}}</h1></a>
                             </div>
                             <div class="container-fluid" style="position: absolute;z-index: 1;left: 39%;top: 22%;">
                                 <a href={{$episode->link}}><img src="{{ asset('videoicon.png') }}" alt="Card image cap"></a>

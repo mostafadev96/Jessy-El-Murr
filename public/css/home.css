@@ -70,7 +70,7 @@
     position: absolute;
     z-index: 4;
     left: calc(50% - 25px);
-    bottom: -13%;
+    bottom: -18%;
     border: solid 1px #ccc;
     border-radius: 2.5em;
     box-shadow: 2px 7px 28px 6px rgba(74, 98, 220, 0.2)
@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 991px) {
     .first-second-btn {
-        bottom: -116% !important;
+        bottom: -120% !important;
     }
 }
 

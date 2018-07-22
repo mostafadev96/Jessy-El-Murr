@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Guest;
 use Illuminate\Http\Request;
 
 class GuestController extends Controller
@@ -13,7 +14,9 @@ class GuestController extends Controller
      */
     public function index()
     {
-        //
+        $guests = Guest::paginate(12,['*'],'guestpage');
+        return view('guests', ['guests' => $guests]);
+//        return $guests;
     }
 
     /**

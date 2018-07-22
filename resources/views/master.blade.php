@@ -13,6 +13,8 @@
     <link href={{ asset("css/app.css") }} rel="stylesheet"/>
     <link href={{ asset("css/style.min.css") }} rel="stylesheet"/>
     <link href={{ asset("css/home.css") }} rel="stylesheet"/>
+    <link href={{ asset("css/pagination.css") }} rel="stylesheet"/>
+    @yield('custom-style')
     <style>
     </style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -23,15 +25,14 @@
 </head>
 <body style="font-family: Lato ;font-size: larger;">
 @include('navbar')
-@yield('home')
-@yield('biography')
-@yield('videos')
+@yield('content')
 @include('footer')
 
 {{--@include('footer')--}}
 <script src=" {{ asset("js/jquery-3.3.1.js") }}"></script>
 <script src=" {{ asset("js/owl.carousel.min.js") }}"></script>
 <script src=" {{ asset("js/bootstrap.min.js") }}"></script>
+@yield('custom-src')
 <script src=" {{ asset("js/home.js") }}"></script>
 
 </body>

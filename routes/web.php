@@ -13,4 +13,9 @@
 
 Route::get('/','HomeController@index');
 Route::get('/biography','BiographyController@index');
+Route::get('/videos','VideoController@index');
+Route::get('/guests','GuestController@index');
+Route::get('/episodes','EpisodeController@index');
+Route::get('/gallery','GalleryController@index');
+//Route::get('/testimonials','TestimonialController@index');
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Testimonial;
 use Illuminate\Http\Request;
 
 class TestimonialController extends Controller
@@ -13,7 +14,9 @@ class TestimonialController extends Controller
      */
     public function index()
     {
-        //
+        $testimonials = Testimonial::paginate(12);
+        return view('testimonials', ['testimonials' => $testimonials]);
+//        return $testimonials;
     }
 
     /**

@@ -61,7 +61,7 @@
     </div>
     <div class="row" style="position: absolute;z-index: 1;bottom: 2%;left: 44%;">
         <div class="col-lg-2">
-            <button class="btn button-background"><p style="font-size: 1rem;font-weight:bold;color: white;">View More</p></button>
+            <a href="/gallery" class="btn button-background"><p style="font-size: 1rem;font-weight:bold;color: white;">View More</p></a>
         </div><!-- /col -->
     </div><!-- /row -->
     <div class="row" style="width: 100%">

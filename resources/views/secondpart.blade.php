@@ -22,7 +22,7 @@
                                 @foreach($data->phrases as $phrase)
                                     <p class="phrases-secondpart">{{$phrase}}</p>
                                 @endforeach
-                                <button class="button-background" style="position:  absolute;left:30%"><p style="font-size: 1rem;font-weight: bold;color: white;">View More</p></button>
+                                <a href="/biography" class="button-background" style="position:  absolute;left:30%"><p style="font-size: 1rem;font-weight: bold;color: white;">View More</p></a>
                             </div>
                         </div>
                     </div>

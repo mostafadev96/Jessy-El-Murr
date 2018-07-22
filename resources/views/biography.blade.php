@@ -1,5 +1,5 @@
 @extends('master')
-@section('home')
+@section('content')
     <div class="row" style="    background-image: linear-gradient(96deg, rgba(74, 98, 220, 0.99) 7%, rgba(97, 44, 214, 0.99) 100%);
     background-size: 100% 100%;
     position: relative;
@@ -12,7 +12,7 @@
                     {{--text--}}
                     <p style="display: block;font-size: 2.7rem;font-weight: 900;padding: 25px 0px 0px 0px;background: linear-gradient(162deg, #f0f0f0, #96d6ee);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Jessy El Murr</p>
                     @foreach($phrases as $phrase)
-                        <p class="phrases-secondpart" style="padding: 25px 0px 0px 0px;color: white;font-size: 1.5rem">{{$phrase}}</p>
+                        <p class="phrases-secondpart" style="padding: 25px 0px 0px 0px;color: white;font-size: 1.5rem;font-weight: 600;">{{$phrase}}</p>
                     @endforeach
                 </div>
                 <div class="col-lg-1">
