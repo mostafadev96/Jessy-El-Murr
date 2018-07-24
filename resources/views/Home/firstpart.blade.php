@@ -1,7 +1,7 @@
  <div class="col-lg-1"></div>
  <div class="col-lg-10">
      <div class="row">
-            <div style="margin-bottom: 200px" class="col-lg-6 col-sm-12">
+            <div style="margin-bottom: 200px;overflow: hidden" class="col-lg-6 col-sm-12">
                 <h1 class="headline-white" style="margin-top:12rem;">{{$data->name}}</h1>
                 <p class="small-white" style="margin-bottom: 0rem">{{$data->jobTitle}}</p>
                 <img style="display: block;

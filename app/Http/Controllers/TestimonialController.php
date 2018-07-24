@@ -12,9 +12,15 @@ class TestimonialController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $testimonials = Testimonial::paginate(12);
+        $noOfitems=12;
+        if($request->has('testimonialpage')) {
+            if($request->testimonialpage<1 || $request->testimonialpage>ceil(Testimonial::count()/$noOfitems)){
+                return redirect('/');
+            }
+        }
+        $testimonials = Testimonial::paginate(12,['*'],'testimonialpage');
         return view('testimonials', ['testimonials' => $testimonials]);
 //        return $testimonials;
     }

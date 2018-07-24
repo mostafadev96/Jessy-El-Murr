@@ -32,17 +32,20 @@ class HomeController extends Controller
         $albums=array();
         for ($i=2;$i<count($tempalbum);$i++){
             array_push($albums,[
+                'id'=>$tempalbum[$i]->id,
                 'title'=>$tempalbum[$i]->title,
                 'size'=>$tempalbum[$i]->size,
                 'photos'=>Album::find($tempalbum[$i]->id)->photos(),
                 'description'=>$tempalbum[$i]->description,
             ]);
         }
-        $lsidegallery=['title'=>$tempalbum[0]->title,
+        $lsidegallery=['id'=>$tempalbum[0]->id,
+            'title'=>$tempalbum[0]->title,
             'size'=>$tempalbum[0]->size,
             'photos'=>Album::find($tempalbum[0]->id)->photos(),
             'description'=>$tempalbum[0]->description];
-        $rsidegallery=['title'=>$tempalbum[1]->title,
+        $rsidegallery=['id'=>$tempalbum[1]->id,
+            'title'=>$tempalbum[1]->title,
             'size'=>$tempalbum[1]->size,
             'photos'=>Album::find($tempalbum[1]->id)->photos(),
             'description'=>$tempalbum[1]->description,];

@@ -12,8 +12,14 @@ class GalleryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $noOfitems=12;
+        if($request->has('gallerypage')) {
+            if($request->gallerypage<1 || $request->gallerypage>ceil(Album::count()/$noOfitems)){
+                return redirect('/');
+            }
+        }
         $albums=Album::paginate(12,['*'],'gallerypage');
         $albums->getCollection()->transform(function ($value) {
             $value->photos=Album::find($value->id)->photos();

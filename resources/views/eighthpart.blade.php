@@ -5,16 +5,15 @@
         <div class="col-lg-1">
 
         </div>
-        <div class="col-lg-10 dotted-background" style="height: 400px;
-    ">
+        <div class="col-lg-10 dotted-background" style="height: 400px;overflow: hidden">
             <img style="display: block;margin: 26px auto" class="img-fluid" src="{{ asset('JMurrbluelogo.png') }}" alt="...">
             <h1 class="text-center" style="font-size: 2rem;font-weight:bolder;color: black;">GET IN TOUCH</h1>
             <div class="form-group" style="display: block;">
                 <input type="text" style="border-radius: 25px;
          border: 2px solid #d9d9d9;
-    padding: 0px 0px 0px 4px;
+    padding: 0 0 0 4px;
     width: 40%;
-    height: 16%; box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.1);position: absolute;
+    height: 16%; box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1);position: absolute;
     z-index: 1;left: 0;
     right: 0;
     margin: auto;" placeholder="YOUR MAIL">

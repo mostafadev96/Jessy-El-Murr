@@ -9,7 +9,7 @@ class Testimonial extends Model
     public $table = "testimonials";
 
     protected $hidden = [
-        'id','created_at','updated_at'
+        'created_at','updated_at'
     ];
 
 }

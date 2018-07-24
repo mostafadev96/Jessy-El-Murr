@@ -1,7 +1,6 @@
 .social-icons {
     font-size: 2.84rem;
     opacity: 0.3;
-    margin-top: 16px;
     color: #0b0623
 }
 
@@ -211,3 +210,22 @@
 }
 /* Style the button that is used to open and close the collapsible content */
 /* Style the collapsible content. Note: hidden by default */
+
+.parent {
+    width: 400px;
+    height: 250px;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background:no-repeat center;
+    background-size: cover;
+    margin: 40px 55px 10px 55px;transition: all .5s;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    transform: scale(1.2);
+}

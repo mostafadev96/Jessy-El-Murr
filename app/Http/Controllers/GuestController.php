@@ -12,8 +12,14 @@ class GuestController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $noOfitems=12;
+        if($request->has('guestpage')) {
+            if($request->guestpage<1 || $request->guestpage>ceil(Guest::count()/$noOfitems)){
+                return redirect('/');
+            }
+        }
         $guests = Guest::paginate(12,['*'],'guestpage');
         return view('guests', ['guests' => $guests]);
 //        return $guests;

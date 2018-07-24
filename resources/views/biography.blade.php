@@ -8,11 +8,11 @@
         <div class="col-lg-10">
             <div class="row">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="overflow: hidden;">
                     {{--text--}}
-                    <p style="display: block;font-size: 2.7rem;font-weight: 900;padding: 25px 0px 0px 0px;background: linear-gradient(162deg, #f0f0f0, #96d6ee);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Jessy El Murr</p>
+                    <p style="display: block;font-size: 2.7rem;font-weight: 900;padding: 25px 0 0 0;background: linear-gradient(162deg, #f0f0f0, #96d6ee);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Jessy El Murr</p>
                     @foreach($phrases as $phrase)
-                        <p class="phrases-secondpart" style="padding: 25px 0px 0px 0px;color: white;font-size: 1.5rem;font-weight: 600;">{{$phrase}}</p>
+                        <p class="phrases-secondpart" style="padding: 25px 0 0 0;color: white;font-size: 1.5rem;font-weight: 600;">{{$phrase}}</p>
                     @endforeach
                 </div>
                 <div class="col-lg-1">
@@ -20,8 +20,7 @@
                 </div>
                 <div class="col-lg-5">
                     {{--photos--}}
-                    <img class="img-fluid" style="border-radius: 19%;border-radius: 19% 1%;
-    padding-bottom: 30px;"  src="{{ asset('imgs\biography/bio.png') }}" alt="Card image cap">
+                    <img class="img-fluid" style="border-radius: 19% 1%;padding-bottom: 30px;"  src="{{ asset('imgs\biography/bio.png') }}" alt="Card image cap">
                 </div>
 
             </div>

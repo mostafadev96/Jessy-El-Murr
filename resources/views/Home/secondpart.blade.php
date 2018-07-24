@@ -17,7 +17,7 @@
                             <img style="max-width: 50%" src="{{ asset('imgs/home/part2/secondjessyphoto.png') }}" alt="..." >
                         </div>
                         <div class="card pull-below" style="max-width:65%;margin-top: 45%;margin-left: 18%;background:white;box-shadow:2px 7px 28px 6px rgba(0, 0, 0, 0.1);position: absolute;z-index: 1">
-                            <div class="card-body" style="background:white;">
+                            <div class="card-body" style="background:white;overflow: hidden">
                                 <p style="display: block;font-size: 1.7rem;font-weight: bolder;color: black;padding:30px 40px 0 50px;background:linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Jessy El Murr</p>
                                 @foreach($data->phrases as $phrase)
                                     <p class="phrases-secondpart">{{$phrase}}</p>

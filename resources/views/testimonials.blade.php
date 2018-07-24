@@ -17,7 +17,7 @@
                                     background:no-repeat center;
                                     background-size: cover;
                                     background-image: url('{{asset($testimonial->photo)}}');margin: 40px 55px 10px 55px;"></div>
-                            <div class="card-body" style="background:white;text-align: center">
+                            <div class="card-body" style="background:white;text-align: center;overflow: hidden">
                                 <h1 style="display: block;font-size: 2.0rem;font-weight: bold;color: black;padding: 0 40px 0 50px;background:linear-gradient( 132deg, rgb(108,18,211) 0%, rgb(74,98,220) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">{{$testimonial->name}}</h1>
                                 <p class="small-black">{{$testimonial->description}}</p>
                             </div>

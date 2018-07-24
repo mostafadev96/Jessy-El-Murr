@@ -14,7 +14,7 @@ class Gallery extends Model
      * @var array
      */
     protected $hidden = [
-        'id', 'album_id','created_at','updated_at'
+        'album_id','created_at','updated_at'
     ];
 
     /**

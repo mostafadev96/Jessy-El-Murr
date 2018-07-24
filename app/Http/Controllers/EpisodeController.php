@@ -12,8 +12,14 @@ class EpisodeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $noOfitems=12;
+        if($request->has('episodepage')) {
+            if($request->episodepage<1 || $request->episodepage>ceil(Episode::count()/$noOfitems)){
+                return redirect('/');
+            }
+        }
         $episodes = Episode::paginate(12,['*'],'episodepage');
         return view('episodes', ['episodes' => $episodes]);
 //        return $episodes;

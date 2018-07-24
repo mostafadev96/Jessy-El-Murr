@@ -9,7 +9,7 @@ class Guest extends Model
     public $table = "guests";
 
     protected $hidden = [
-        'id','created_at','updated_at'
+        'created_at','updated_at'
     ];
 
 }

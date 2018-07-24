@@ -11,7 +11,7 @@
                         background:no-repeat center;
                         background-size: cover;
                         background-image: url('{{asset($guest->photo)}}');margin: 78px 55px 10px 55px;"></div>
-                <div class="card-body" style="background:white;text-align: center">
+                <div class="card-body" style="background:white;text-align: center;overflow: hidden">
                     <h1 style="font-size: 2.3rem;color: black">{{$guest->name}}</h1>
                     <p style="font-size: 1.7rem;color: rgb(108, 18, 211);line-height: 1.2;">{{$guest->job}}</p>
                     <div style="background-color: rgb(107, 21, 211);width: 43px;height: 3px;margin-left: auto;margin-right: auto"></div>

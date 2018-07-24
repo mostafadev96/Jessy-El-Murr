@@ -18,6 +18,7 @@ class CreateEpisodesTable extends Migration
             $table->text('photo');
             $table->text('title');
             $table->text('link');
+            $table->string('srtdesc');
             $table->timestamps();
         });
     }

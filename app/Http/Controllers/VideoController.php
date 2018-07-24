@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Video;
 use Illuminate\Http\Request;
-
+use Alaouy\Youtube\Facades\Youtube;
 class VideoController extends Controller
 {
     /**
@@ -12,11 +12,20 @@ class VideoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $videos = Video::paginate(12,['*'],'videopage');
+        $noOfitems=12;
+//        $videoList = Youtube::searchVideos('nature');
+//        $video = Youtube::getVideoInfo('jPyKU4iqT9M');
+//        $array = json_decode(json_encode($video), True);
+        if($request->has('videopage')) {
+            if($request->videopage<1 || $request->videopage>ceil(Video::count()/$noOfitems)){
+                return redirect('/');
+            }
+        }
+        $videos = Video::paginate($noOfitems,['*'],'videopage');
         return view('videos', ['videos' => $videos]);
-//        return $videos;
+//        return $array;
     }
 
     /**
