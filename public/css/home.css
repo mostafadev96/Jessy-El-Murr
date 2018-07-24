@@ -81,7 +81,21 @@
     margin-left: 0px;
     padding: 24px
 }
-
+@media screen and (min-width: 300px) and (max-width: 370px) {
+    .first-second-btn {
+        bottom: -77% !important;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 769px) {
+    .first-second-btn {
+        bottom: -70% !important;
+    }
+}
+@media screen and (min-width: 770px){
+    .first-second-btn {
+        bottom: 6% !important;
+    }
+}
 @media screen and (max-width: 676px) {
     .fourth-viewmore {
         height: 1060px !important;
@@ -114,6 +128,8 @@
 
 }
 
+
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
     .fourth-viewmore1 {
         height: 2160px !important;
@@ -140,13 +156,6 @@
         margin-top: 57% !important;
     }
 }
-
-@media screen and (max-width: 991px) {
-    .first-second-btn {
-        bottom: -120% !important;
-    }
-}
-
 .show-info {
     position: absolute;
     z-index: 1;
