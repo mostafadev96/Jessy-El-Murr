@@ -1,9 +1,9 @@
 @extends('master')
 @section('custom-style')
-    <link href={{ asset("css/gallery.css") }} rel="stylesheet"/>
+    <link href={{ secure_asset("css/gallery.css") }} rel="stylesheet"/>
 @endsection
 @section('custom-src')
-    <script src=" {{ asset("js/gallery.js") }}"></script>
+    <script src=" {{ secure_asset("js/gallery.js") }}"></script>
 @endsection
 @section('content')
     <div class="row" style="    background-image: linear-gradient(96deg, rgba(74, 98, 220, 0.99) 7%, rgba(97, 44, 214, 0.99) 100%);
