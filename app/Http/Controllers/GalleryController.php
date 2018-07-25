@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Album;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class GalleryController extends Controller
 {
@@ -17,7 +18,7 @@ class GalleryController extends Controller
         $noOfitems=12;
         if($request->has('gallerypage')) {
             if($request->gallerypage<1 || $request->gallerypage>ceil(Album::count()/$noOfitems)){
-                return redirect('/');
+                throw new NotFoundHttpException('Not found');
             }
         }
         $albums=Album::paginate(12,['*'],'gallerypage');

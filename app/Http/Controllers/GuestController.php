@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Guest;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class GuestController extends Controller
 {
@@ -17,8 +18,8 @@ class GuestController extends Controller
         $noOfitems=12;
         if($request->has('guestpage')) {
             if($request->guestpage<1 || $request->guestpage>ceil(Guest::count()/$noOfitems)){
-                return redirect('/');
-            }
+                throw new NotFoundHttpException('Not found');
+                }
         }
         $guests = Guest::paginate(12,['*'],'guestpage');
         return view('guests', ['guests' => $guests]);

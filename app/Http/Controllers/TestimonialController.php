@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Testimonial;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class TestimonialController extends Controller
 {
@@ -17,7 +18,8 @@ class TestimonialController extends Controller
         $noOfitems=12;
         if($request->has('testimonialpage')) {
             if($request->testimonialpage<1 || $request->testimonialpage>ceil(Testimonial::count()/$noOfitems)){
-                return redirect('/');
+                throw new NotFoundHttpException('Not found');
+
             }
         }
         $testimonials = Testimonial::paginate(12,['*'],'testimonialpage');

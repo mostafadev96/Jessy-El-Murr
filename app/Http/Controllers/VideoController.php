@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Video;
 use Illuminate\Http\Request;
 use Alaouy\Youtube\Facades\Youtube;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+
 class VideoController extends Controller
 {
     /**
@@ -20,7 +22,7 @@ class VideoController extends Controller
 //        $array = json_decode(json_encode($video), True);
         if($request->has('videopage')) {
             if($request->videopage<1 || $request->videopage>ceil(Video::count()/$noOfitems)){
-                return redirect('/');
+                throw new NotFoundHttpException('Not found');
             }
         }
         $videos = Video::paginate($noOfitems,['*'],'videopage');

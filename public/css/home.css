@@ -150,6 +150,11 @@
         height: 1800px !important;
     }
 }
+@media screen and (max-width: 370px) {
+    .not-found-text{
+        font-size: 4.0rem!important;
+    }
+}
 
 @media screen and (min-width: 300px)  and (max-width: 700px) {
     .pull-below {
@@ -237,4 +242,14 @@
 .parent:hover .child,
 .parent:focus .child {
     transform: scale(1.2);
+}
+.not-found-text{
+    filter: saturate(5);
+    display: block;
+    font-size: 4.7rem;
+    font-weight: 900;
+    color: black;
+    background: linear-gradient(132deg, rgb(108, 18, 211) 0%, rgb(74, 98, 220) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

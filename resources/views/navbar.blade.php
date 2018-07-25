@@ -1,7 +1,7 @@
 <div class="row" style="background-image: linear-gradient(96deg, rgba(74, 98, 220, 0.99) 7%, rgba(97, 44, 214, 0.99) 100%);
     background-size: 100% 100%;
     position: relative;
-    overflow: hidden;padding-bottom: 25px">
+    overflow: hidden;padding-bottom: 11px">
     <div class="col-lg-1">
     </div>
     <div class="col-lg-10 ">
