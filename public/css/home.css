@@ -83,7 +83,10 @@
 }
 @media screen and (min-width: 300px) and (max-width: 370px) {
     .first-second-btn {
-        bottom: -77% !important;
+        bottom: -84% !important;
+    }
+    .fourth-viewmore4 {
+        height: 2000px !important;
     }
 }
 @media screen and (min-width: 375px) and (max-width: 769px) {
@@ -107,9 +110,6 @@
         height: 2080px !important;
     }
 
-    .fourth-viewmore4 {
-        height: 1450px !important;
-    }
 
 }
 
@@ -124,6 +124,9 @@
 
     .form-group > button {
         width: 22% !important;
+    }
+    .fourth-viewmore4 {
+        height: 1450px !important;
     }
 
 }

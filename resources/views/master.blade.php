@@ -24,9 +24,11 @@
     <title>Jessy ElMurr</title>
 </head>
 <body style="font-family: Lato ;font-size: larger;">
-@include('navbar')
-@yield('content')
-@include('footer')
+<div class="container-fluid">
+    @include('navbar')
+    @yield('content')
+    @include('footer')
+</div>
 
 {{--@include('footer')--}}
 <script src=" {{ secure_asset("js/jquery-3.3.1.js") }}"></script>

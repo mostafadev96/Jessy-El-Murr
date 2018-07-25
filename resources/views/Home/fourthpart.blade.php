@@ -3,7 +3,7 @@
 <div class="col-lg-10" style="position: relative;">
     <h1 class="headline-black">Guests</h1>
     <img style="margin-top:8rem;position: absolute;z-index: 1" class="img-fluid" src="{{ asset('horizontallineblue.png') }}" alt="..." >
-    <div class="card-deck" style="margin-top: 16.5rem;position: absolute;z-index: 1;width: 100%">
+    <div class="card-deck" style="margin-top: 16.5rem;margin-left:10px;position: absolute;z-index: 1;width: 92%">
         @foreach($data->guests as $guest)
             <div class="card"  style="background:white;box-shadow:2px 7px 28px 6px rgba(0, 0, 0, 0.1);">
                 <div style="height: 250px;
