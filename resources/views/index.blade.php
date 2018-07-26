@@ -1,14 +1,16 @@
 @extends('master')
 @php($data = json_decode($data))
 @section('content')
-    <div class="row" style="background-image: url({{ asset('firstbackground.png') }});background-repeat: no-repeat;
-            background-size: 100% 100%;position: relative;
-            overflow: hidden;">
-        @include('Home.firstpart')
-    </div>
-    <a class="first-second-btn" href="#biography"><img src="{{asset('first-secondButton.png')}}"/></a>
-    <div id="biography" class="row">
-        @include('Home.secondpart')
+    <div>
+        <div class="row" style="background-image: url({{ asset('firstbackground.png') }});background-repeat: no-repeat;
+                background-size: 100% 100%;position: relative;
+                overflow: hidden;">
+            @include('Home.firstpart')
+        </div>
+        <a class="first-second-btn" href="#biography"><img src="{{asset('first-secondButton.png')}}"/></a>
+        <div id="biography" class="row">
+            @include('Home.secondpart')
+        </div>
     </div>
     <div id="videos" class="row grediant-background">
         @include('Home.thirdpart')

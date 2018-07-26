@@ -69,7 +69,7 @@
     position: absolute;
     z-index: 4;
     left: calc(50% - 25px);
-    bottom: -18%;
+    margin-top: -3%;
     border: solid 1px #ccc;
     border-radius: 2.5em;
     box-shadow: 2px 7px 28px 6px rgba(74, 98, 220, 0.2)
@@ -82,26 +82,18 @@
     padding: 24px
 }
 @media screen and (min-width: 300px) and (max-width: 370px) {
-    .first-second-btn {
-        bottom: -162% !important;
-    }
+
     .fourth-viewmore4 {
         height: 2000px !important;
-    }
-}
-@media screen and (min-width: 375px) and (max-width: 769px) {
-    .first-second-btn {
-        bottom: -139% !important;
-    }
-}
-@media screen and (min-width: 770px){
-    .first-second-btn {
-        bottom: -30% !important;
     }
 }
 @media screen and (max-width: 676px) {
     .fourth-viewmore {
         height: 1060px !important;
+    }
+    .first-second-btn {
+        margin-top: -7%!important;
+
     }
 }
 
