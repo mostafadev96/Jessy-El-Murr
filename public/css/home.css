@@ -83,7 +83,7 @@
 }
 @media screen and (min-width: 300px) and (max-width: 370px) {
     .first-second-btn {
-        bottom: -84% !important;
+        bottom: -162% !important;
     }
     .fourth-viewmore4 {
         height: 2000px !important;
@@ -91,12 +91,12 @@
 }
 @media screen and (min-width: 375px) and (max-width: 769px) {
     .first-second-btn {
-        bottom: -70% !important;
+        bottom: -139% !important;
     }
 }
 @media screen and (min-width: 770px){
     .first-second-btn {
-        bottom: 6% !important;
+        bottom: -30% !important;
     }
 }
 @media screen and (max-width: 676px) {
