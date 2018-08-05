@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
+-- MySQL dump 10.16  Distrib 10.1.26-MariaDB, for Win32 (AMD64)
 --
 -- Host: localhost    Database: jessy_elmurr
 -- ------------------------------------------------------
@@ -39,7 +39,7 @@ CREATE TABLE `albums` (
 
 LOCK TABLES `albums` WRITE;
 /*!40000 ALTER TABLE `albums` DISABLE KEYS */;
-INSERT INTO `albums` VALUES (1,'Innovative Young Arabs','1','blablablablabla',NULL,NULL),(2,'Innovative Young Arabs','1','blablablablabla',NULL,NULL),(3,'Innovative Young Arabs','1','blablablablabla',NULL,NULL),(4,'Innovative Young Arabs','1','blablablablabla',NULL,NULL);
+INSERT INTO `albums` VALUES (1,'Innovative Young Arabs','4','blablablablabla',NULL,NULL),(2,'Innovative Young Arabs','4','blablablablabla',NULL,NULL),(3,'Innovative Young Arabs','4','blablablablabla',NULL,NULL),(4,'Innovative Young Arabs','4','blablablablabla',NULL,NULL);
 /*!40000 ALTER TABLE `albums` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -94,7 +94,7 @@ CREATE TABLE `episodes` (
 
 LOCK TABLES `episodes` WRITE;
 /*!40000 ALTER TABLE `episodes` DISABLE KEYS */;
-INSERT INTO `episodes` VALUES (1,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(2,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(3,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(4,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(5,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(6,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(7,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(8,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(9,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(10,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(11,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(12,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(13,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(14,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(15,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(16,'imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL);
+INSERT INTO `episodes` VALUES (1,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(2,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(3,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(4,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(5,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(6,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(7,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(8,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(9,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(10,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(11,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(12,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(13,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(14,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(15,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL),(16,'visitor/imgs/episodes/fifthpartphoto.png','Episodes one','https://www.youtube.com/embed/zpOULjyy-n8?rel=0','blablablablabla',NULL,NULL);
 /*!40000 ALTER TABLE `episodes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -123,7 +123,7 @@ CREATE TABLE `galleries` (
 
 LOCK TABLES `galleries` WRITE;
 /*!40000 ALTER TABLE `galleries` DISABLE KEYS */;
-INSERT INTO `galleries` VALUES (1,'imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(2,'imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(3,'imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(4,'imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(5,'imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(6,'imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(7,'imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(8,'imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(9,'imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(10,'imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(11,'imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(12,'imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(13,'imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(14,'imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(15,'imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(16,'imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL);
+INSERT INTO `galleries` VALUES (1,'visitor/imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(2,'visitor/imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(3,'visitor/imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(4,'visitor/imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(5,'visitor/imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(6,'visitor/imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(7,'visitor/imgs/gallery/1/sixthphoto.png',1,NULL,NULL),(8,'visitor/imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(9,'visitor/imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(10,'visitor/imgs/gallery/2/sixthphoto.png',2,NULL,NULL),(11,'visitor/imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(12,'visitor/imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(13,'visitor/imgs/gallery/3/sixthpartphoto.png',3,NULL,NULL),(14,'visitor/imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(15,'visitor/imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL),(16,'visitor/imgs/gallery/4/sixthpartphoto.png',4,NULL,NULL);
 /*!40000 ALTER TABLE `galleries` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -154,7 +154,7 @@ CREATE TABLE `guests` (
 
 LOCK TABLES `guests` WRITE;
 /*!40000 ALTER TABLE `guests` DISABLE KEYS */;
-INSERT INTO `guests` VALUES (1,'imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL),(2,'imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL),(3,'imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL);
+INSERT INTO `guests` VALUES (1,'visitor/imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL),(2,'visitor/imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL),(3,'visitor/imgs/guests/fourthpartphoto.png','Rose Leslie','Movie actor','#','#','#',NULL,NULL);
 /*!40000 ALTER TABLE `guests` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -191,7 +191,7 @@ DROP TABLE IF EXISTS `password_resets`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `password_resets` (
-  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL,
   `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   KEY `password_resets_email_index` (`email`)
@@ -258,7 +258,7 @@ CREATE TABLE `testimonials` (
 
 LOCK TABLES `testimonials` WRITE;
 /*!40000 ALTER TABLE `testimonials` DISABLE KEYS */;
-INSERT INTO `testimonials` VALUES (1,'imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(2,'imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(3,'imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(4,'imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL);
+INSERT INTO `testimonials` VALUES (1,'visitor/imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(2,'visitor/imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(3,'visitor/imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL),(4,'visitor/imgs/testimonials/emma_stone_11.png','Emma Stone','Jessy El Murr is a multimedia journalist, speaker and moderator with a special interest in social media and Arab youth.',NULL,NULL);
 /*!40000 ALTER TABLE `testimonials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -271,15 +271,16 @@ DROP TABLE IF EXISTS `users`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `password` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `remember_token` varchar(60) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `name` varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(70) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `photo` text COLLATE utf8mb4_unicode_ci,
+  `password` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -288,6 +289,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (7,'pop','pop@p.com',NULL,'$2y$10$j/b43k3c1kCllY3zktjwyOBtbYpgLnTrJgfZP.Bz5HGBNwjieuy32','IRXw1MEW7YrSwVALSn9yj0pAzP0014Zm3N04xaPugpnJlQEFgpB0RU5i7Z8F','2018-07-31 14:07:57','2018-07-31 14:07:57');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -317,7 +319,7 @@ CREATE TABLE `videos` (
 
 LOCK TABLES `videos` WRITE;
 /*!40000 ALTER TABLE `videos` DISABLE KEYS */;
-INSERT INTO `videos` VALUES (1,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(2,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(3,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(4,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(5,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(6,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(7,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(8,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(9,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(10,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(11,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(12,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(13,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(14,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(15,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(16,'imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL);
+INSERT INTO `videos` VALUES (1,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(2,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(3,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(4,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(5,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(6,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(7,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(8,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(9,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(10,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(11,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(12,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(13,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(14,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(15,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL),(16,'visitor/imgs/videos/firstcarousel.png','Innovative Young Arabs','02:00','blablablablabla','https://www.youtube.com/embed/zpOULjyy-n8?rel=0',NULL,NULL);
 /*!40000 ALTER TABLE `videos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -330,4 +332,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-07-24 14:07:35
+-- Dump completed on 2018-08-06  1:43:57

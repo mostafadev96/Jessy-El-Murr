@@ -8,4 +8,8 @@ class Personal extends Model
 {
     public $table = "perosnals";
 
+    protected $hidden = [
+        'created_at','updated_at'
+    ];
+
 }

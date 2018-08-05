@@ -19,7 +19,7 @@ class BiographyController extends Controller
         for($i=0;$i<count($tempphrases);$i++){
             array_push($phrases,$tempphrases[$i]->phrase);
         }
-        return view('biography')->with('phrases',$phrases);
+        return view('Visitor_pages.biography')->with('phrases',$phrases);
     }
 
     /**

@@ -1,4 +1,4 @@
-@extends('master')
+@extends('Visitor_pages.master')
 @section('custom-style')
 @endsection
 @section('custom-src')

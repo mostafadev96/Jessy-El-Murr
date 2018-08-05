@@ -23,7 +23,7 @@ class TestimonialController extends Controller
             }
         }
         $testimonials = Testimonial::paginate(12,['*'],'testimonialpage');
-        return view('testimonials', ['testimonials' => $testimonials]);
+        return view('Visitor_pages.testimonials', ['testimonials' => $testimonials]);
 //        return $testimonials;
     }
 

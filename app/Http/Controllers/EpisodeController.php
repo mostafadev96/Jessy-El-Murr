@@ -22,7 +22,7 @@ class EpisodeController extends Controller
             }
         }
         $episodes = Episode::paginate(12,['*'],'episodepage');
-        return view('episodes', ['episodes' => $episodes]);
+        return view('Visitor_pages.episodes', ['episodes' => $episodes]);
 //        return $episodes;
     }
 

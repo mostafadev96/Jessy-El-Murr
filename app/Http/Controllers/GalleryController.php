@@ -26,7 +26,7 @@ class GalleryController extends Controller
             $value->photos=Album::find($value->id)->photos();
             return $value;
         });
-        return view('gallery', ['albums' => $albums]);
+        return view('Visitor_pages.gallery', ['albums' => $albums]);
 //        return $albums;
     }
 

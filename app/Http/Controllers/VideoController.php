@@ -26,7 +26,7 @@ class VideoController extends Controller
             }
         }
         $videos = Video::paginate($noOfitems,['*'],'videopage');
-        return view('videos', ['videos' => $videos]);
+        return view('Visitor_pages.videos', ['videos' => $videos]);
 //        return $array;
     }
 

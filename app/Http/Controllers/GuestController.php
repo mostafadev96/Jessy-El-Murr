@@ -22,7 +22,7 @@ class GuestController extends Controller
                 }
         }
         $guests = Guest::paginate(12,['*'],'guestpage');
-        return view('guests', ['guests' => $guests]);
+        return view('Visitor_pages.guests', ['guests' => $guests]);
 //        return $guests;
     }
 

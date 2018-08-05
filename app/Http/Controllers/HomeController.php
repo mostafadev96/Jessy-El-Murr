@@ -65,7 +65,7 @@ class HomeController extends Controller
             'testimonials'=>$testimonials,
         );
         $data = json_encode($data);
-        return view('index')->with('data',$data);
+        return view('Visitor_pages.index')->with('data',$data);
 //        return $data;
     }
 
