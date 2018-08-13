@@ -1,9 +1,9 @@
 @extends('Admin_pages.adminmaster')
 @section('custom_style')
-    <link href={{ asset("AdminStyles/css/searchstyle.css") }} rel="stylesheet" media="all" />
+    <link href={{ secure_asset("AdminStyles/css/searchstyle.css") }} rel="stylesheet" media="all" />
 @endsection
 @section('custom_js')
-    <script src=" {{ asset("AdminStyles/js/search.js") }}"></script>
+    <script src=" {{ secure_asset("AdminStyles/js/search.js") }}"></script>
 @endsection
 @section('content')
     <div class="main-content">

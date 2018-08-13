@@ -2,336 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d10ec-a9c9-4232-9a1f-40c3b852516d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminAuth/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PersonalController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AdminAuth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/css/searchstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-100italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-200italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-600italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-900italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/bg-title-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/bg-title-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/Untitled-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/avatar-big-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/logo-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/logo-mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/icon/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/animsition/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/animsition/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/bootstrap-4.1/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/bootstrap-4.1/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/chartjs/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/circle-progress/circle-progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/circle-progress/circle-progress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/countdown/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/countdown/jquery.countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/countdown/moment-timezone-with-data.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/countdown/moment-timezone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/countdown/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/counter-up/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/counter-up/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/counter-up/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-5/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/dist/js/lightbox.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/lightbox2/src/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/progressbar/progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/progressbar/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/slick/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/smk-accordion/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/smk-accordion/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/smk-accordion/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.brazil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.europe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.france.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.germany.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.russia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.usa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jquery.vmap.world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/vector-map/jqvmap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/wow/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/wow/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/visitor/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/visitor/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/editelement.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Admin_pages/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/playground.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Biography.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Biography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BiographyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BiographyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EpisodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EpisodeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GalleryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestimonialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestimonialController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Personal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Personal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jessy.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mdb.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/mdb.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mdb.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/mdb.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.theme.default.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.theme.green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/owl.theme.green.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/style5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style5edited.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/css/style5edited.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/biography/bio.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/biography/bio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/episodes/fifthpartphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/episodes/fifthpartphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/gallery/1/sixthphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/gallery/2/sixthphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/gallery/2/sixthphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/gallery/1/sixthphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/gallery/3/sixthpartphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/gallery/4/sixthpartphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/gallery/4/sixthpartphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/gallery/3/sixthpartphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/guests/fourthpartphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/guests/fourthpartphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/home/part1/jessy1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/home/part1/jessy1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/home/part2/secondjessyphoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/home/part2/secondjessyphoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/testimonials/emma_stone_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/testimonials/emma_stone_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/imgs/videos/firstcarousel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/imgs/videos/firstcarousel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/mdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/mdb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/mdb.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/mdb.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/visitor/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/fifthpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/fifthpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/firstpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/firstpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/fourthpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/fourthpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/secondpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/secondpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/seventhpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/seventhpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/sixthpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/sixthpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Home/thirdpart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/Home/thirdpart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/biography.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/biography.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/episodes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/episodes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/guests.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/guests.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/notfound.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/notfound.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/playground.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/vendor/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/testimonials.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/testimonials.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/videos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/videos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Visitor_pages/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Visitor_pages/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -362,7 +39,7 @@
       <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="289">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
@@ -372,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -380,8 +57,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="320">
+              <caret line="60" column="67" lean-forward="true" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -405,6 +82,7 @@
       <find>first-second-btn</find>
       <find>bottom</find>
       <find>asset</find>
+      <find>&lt;scrip</find>
     </findStrings>
     <replaceStrings>
       <replace>16px</replace>
@@ -524,7 +202,7 @@
       <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="554" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -534,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -606,6 +283,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,6 +335,7 @@
       <workItem from="1532529018217" duration="1408000" />
       <workItem from="1532581225950" duration="1275000" />
       <workItem from="1533511757374" duration="1140000" />
+      <workItem from="1534169241031" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -676,7 +355,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60082000" />
+    <option name="totallyTimeSpent" value="61118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,23 +367,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -837,7 +516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="289">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
@@ -854,14 +533,14 @@
     <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="320">
+          <caret line="60" column="67" lean-forward="true" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
         </state>
       </provider>
     </entry>

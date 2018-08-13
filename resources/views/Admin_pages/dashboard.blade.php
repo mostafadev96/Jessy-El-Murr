@@ -1,7 +1,7 @@
 @extends('Admin_pages.adminmaster')
 @php($data = json_decode($data))
 @section('custom_style')
-    <link href={{ asset("AdminStyles/vendor/vector-map/jqvmap.min.css") }} rel="stylesheet" media="all"/>
+    <link href={{ secure_asset("AdminStyles/vendor/vector-map/jqvmap.min.css") }} rel="stylesheet" media="all"/>
 @endsection
 @section('custom_js')
 @endsection

@@ -10,7 +10,7 @@
     </style>
 @endsection
 @section('custom_js')
-    <script src=" {{ asset("AdminStyles/js/ImagePicker.js") }}"></script>
+    <script src=" {{ secure_asset("AdminStyles/js/ImagePicker.js") }}"></script>
     <script src=" http://rvera.github.io/image-picker/image-picker/image-picker.min.js"></script>
     <script src=" https://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
 @endsection
