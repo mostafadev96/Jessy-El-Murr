@@ -23,8 +23,8 @@ Route::post('/admin', 'AdminAuth\AuthController@login');
 Route::get('/c',function(){
     \App\User::create([
         'name' => "pop",
-        'email' => "pop@p.com",
-        'password' => Hash::make("pop"),
+        'email' => "pop1@p.com",
+        'password' => Hash::make("pop1"),
         'photo' => "Hello",
     ]);
     return redirect('/admin');
