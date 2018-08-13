@@ -27,7 +27,7 @@
                             <input id="query" type="text" placeholder="No need to write search item" disabled/>
                             <button id="submitquery" type="button" value="Search">Search</button>
                         </form>
-                        <div id="loading"></div>
+                        <div id="loading" style="margin: auto 20px;text-align: center;margin-bottom: 15px"></div>
                     </div>
                 </div>
                 <div class="row">

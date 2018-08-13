@@ -108,7 +108,7 @@ $(document).ready(function () {
             $('div > table').append("<thead><tr><th style='color: red;'>Please enter a valid search item </th></tr></thead>");
         }
         else {
-            $('#loading').html('<img src="/AdminStyles/images/Rolling-1s-200px.gif">');
+            $('#loading').html('<img src="/AdminStyles/images/Rolling-1s-96px.gif">');
             e.preventDefault();
             $.ajaxSetup({
                 headers: {

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d10ec-a9c9-4232-9a1f-40c3b852516d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/Rolling-1s-96px.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/AdminStyles/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
     </list>
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
@@ -70,11 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="337">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <element signature="e#1490#1554#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +125,8 @@
         <option value="$PROJECT_DIR$/public/css/home.css" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" />
-        <option value="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" />
         <option value="$PROJECT_DIR$/public/AdminStyles/js/search.js" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" />
       </list>
     </option>
   </component>
@@ -350,7 +351,7 @@
       <workItem from="1532529018217" duration="1408000" />
       <workItem from="1532581225950" duration="1275000" />
       <workItem from="1533511757374" duration="1140000" />
-      <workItem from="1534169241031" duration="3537000" />
+      <workItem from="1534169241031" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -373,11 +374,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534171316542</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="search form">
+      <created>1534173130018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534173130018</updated>
+    </task>
+    <task id="LOCAL-00005" summary="search form">
+      <created>1534173903095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534173903095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63619000" />
+    <option name="totallyTimeSpent" value="64876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,10 +438,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first button" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="search form" />
+    <option name="LAST_COMMIT_MESSAGE" value="search form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/firstpart.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/css/app.css" />
     <entry file="file://$PROJECT_DIR$/public/jessy1.png" />
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php" />
@@ -569,23 +584,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/6.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/30.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/Rolling.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
@@ -593,6 +604,16 @@
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#1490#1554#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
