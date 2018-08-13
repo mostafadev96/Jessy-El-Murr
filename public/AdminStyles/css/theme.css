@@ -258,6 +258,7 @@ section {
     .section__content--p30 {
         padding: 0;
     }
+
 }
 
 .section__content--p35 {
@@ -371,6 +372,11 @@ section {
         -moz-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+}
+@media (min-width: 992px) {
+    .js-sidebar-btn {
+        display: none!important;
     }
 }
 

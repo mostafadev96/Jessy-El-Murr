@@ -524,7 +524,7 @@
       <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="554" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -656,7 +656,7 @@
       <workItem from="1531314860318" duration="866000" />
       <workItem from="1532529018217" duration="1408000" />
       <workItem from="1532581225950" duration="1275000" />
-      <workItem from="1533511757374" duration="962000" />
+      <workItem from="1533511757374" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -676,7 +676,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59904000" />
+    <option name="totallyTimeSpent" value="60082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,7 +688,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />

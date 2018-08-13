@@ -15,4 +15,45 @@ class Controller extends BaseController
         $date->add(new \DateInterval($ytDuration));
         return $date->format('H:i:s');
     }
+    function secToHR($seconds) {
+        $hours = floor($seconds / 3600);
+        $minutes = floor(($seconds / 60) % 60);
+        $seconds = $seconds % 60;
+        $result="";
+        if($hours>0&&$hours<10){
+            $result=$result."0".$hours.":";
+        }
+        elseif ($hours>=10){
+            $result=$result.$hours.":";
+        }
+        if($minutes>0&&$minutes<10){
+            $result=$result."0".$minutes.":";
+        }
+        elseif ($minutes>=10){
+            $result=$result.$minutes.":";
+        }
+        else{
+            $result=$result."00:";
+        }
+        if($seconds>0&&$seconds<10){
+            $result=$result."0".$seconds;
+        }
+        elseif ($seconds>=10){
+            $result=$result.$seconds;
+        }
+        else{
+            $result=$result."00";
+        }
+        return $result;
+    }
+    function rmrf($dir) {
+        foreach (glob($dir) as $file) {
+            if (is_dir($file)) {
+                $this->rmrf("$file/*");
+                rmdir($file);
+            } else {
+                unlink($file);
+            }
+        }
+    }
 }

@@ -21,14 +21,14 @@ class HomeController extends Controller
     public function index()
     {
         $phrases=array();
-        $tempphrases=Biography::where('id', '<',4)->get(['phrase']);
+        $tempphrases=Biography::take(3)->get(['phrase']);
         for($i=0;$i<count($tempphrases);$i++){
             array_push($phrases,$tempphrases[$i]->phrase);
         }
-        $videos=Video::where('id', '<',5)->get();
-        $guests=Guest::where('id', '<',4)->get();
-        $episodes=Episode::where('id', '<',7)->get();
-        $tempalbum=Album::where('id', '<',5)->get();
+        $videos=Video::take(6)->get();
+        $guests=Guest::take(3)->get();
+        $episodes=Episode::take(4)->get();
+        $tempalbum=Album::take(4)->get();
         $albums=array();
         for ($i=2;$i<count($tempalbum);$i++){
             array_push($albums,[
@@ -49,7 +49,7 @@ class HomeController extends Controller
             'size'=>$tempalbum[1]->size,
             'photos'=>Album::find($tempalbum[1]->id)->photos(),
             'description'=>$tempalbum[1]->description,];
-        $testimonials=Testimonial::where('id', '<',5)->get();
+        $testimonials=Testimonial::take(4)->get();
         $jobTitle=Personal::where('type','jobtitle')->get(['info']);
         $shortBrief=Personal::where('type','brief')->get(['info']);
         $data=array('shortBrief' =>$shortBrief[0]->info,

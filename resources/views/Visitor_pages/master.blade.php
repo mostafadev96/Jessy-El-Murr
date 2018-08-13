@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href={{ secure_asset("visitor/css/owl.carousel.min.css") }} rel="stylesheet"/>
-    <link href={{ secure_asset("visitor/css/owl.theme.default.min.css") }} rel="stylesheet"/>
-    <link href={{ secure_asset("visitor/css/app.css") }} rel="stylesheet"/>
-    <link href={{ secure_asset("visitor/css/style.min.css") }} rel="stylesheet"/>
-    <link href={{ secure_asset("visitor/css/home.css") }} rel="stylesheet"/>
-    <link href={{ secure_asset("visitor/css/pagination.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/owl.carousel.min.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/owl.theme.default.min.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/app.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/style.min.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/home.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/pagination.css") }} rel="stylesheet"/>
     @yield('custom-style')
     <style>
     </style>
@@ -31,11 +31,11 @@
 </div>
 
 {{--@include('footer')--}}
-<script src=" {{ secure_asset("visitor/js/jquery-3.3.1.js") }}"></script>
-<script src=" {{ secure_asset("visitor/js/owl.carousel.min.js") }}"></script>
-<script src=" {{ secure_asset("visitor/js/bootstrap.min.js") }}"></script>
+<script src=" {{ asset("visitor/js/jquery-3.3.1.js") }}"></script>
+<script src=" {{ asset("visitor/js/owl.carousel.min.js") }}"></script>
+<script src=" {{ asset("visitor/js/bootstrap.min.js") }}"></script>
 @yield('custom-src')
-<script src=" {{ secure_asset("visitor/js/home.js") }}"></script>
+<script src=" {{ asset("visitor/js/home.js") }}"></script>
 
 </body>
 </html>

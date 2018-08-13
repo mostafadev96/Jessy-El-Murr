@@ -62,22 +62,22 @@ class SearchController extends Controller
             $result=Biography::all();
         }
         elseif ($type=='video'){
-            $result = Video::whereRaw("title LIKE '%?%' ",  $query)->get();
+            $result = Video::whereRaw("title LIKE '%$query%' ")->get()->toArray();
         }
         elseif ($type=='guest'){
-            $result = Guest::whereRaw("name LIKE '%?%' ",  $query)->get();
+            $result = Guest::whereRaw("name LIKE '%$query%' ")->get()->toArray();
         }
         elseif ($type=='episode'){
-            $result = Episode::whereRaw("title LIKE '%?%' ",  $query)->get();
+            $result = Episode::whereRaw("title LIKE '%$query%' ")->get()->toArray();
         }
         elseif ($type=='gallery'){
-            $result = Album::whereRaw("title LIKE '%?%' ",  $query)->get();
+            $result = Album::whereRaw("title LIKE '%$query%' ")->get()->toArray();
         }
         elseif ($type=='testimonial'){
-            $result = Testimonial::whereRaw("name LIKE '%?%' ",  $query)->get();
+            $result = Testimonial::whereRaw("name LIKE '%$query%' ")->get()->toArray();
         }
         if ( empty ( $result ) ) {
-            return response()->json(['status'=>'404']);
+            return response()->json(['status'=>'404','data'=>$result]);
         }
         return response()->json(['status'=>'200','data'=>$result,'type'=>$type]);
     }

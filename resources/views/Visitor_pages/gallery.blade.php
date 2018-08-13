@@ -1,9 +1,9 @@
 @extends('Visitor_pages.master')
 @section('custom-style')
-    <link href={{ secure_asset("visitor/css/gallery.css") }} rel="stylesheet"/>
+    <link href={{ asset("visitor/css/gallery.css") }} rel="stylesheet"/>
 @endsection
 @section('custom-src')
-    <script src=" {{ secure_asset("visitor/js/gallery.js") }}"></script>
+    <script src=" {{ asset("visitor/js/gallery.js") }}"></script>
 @endsection
 @section('content')
     <div class="row" style="    background-image: linear-gradient(96deg, rgba(74, 98, 220, 0.99) 7%, rgba(97, 44, 214, 0.99) 100%);

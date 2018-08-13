@@ -55,6 +55,14 @@ Route::group(['middleware' => ['admin']],function(){
         Route::resource('testimonial', 'TestimonialController')->except([
             'index'
         ]);
+        Route::get('/biography', 'BiographyController@paginateAllBiography');
+        Route::get('/personal', 'PersonalController@paginateAllPersonal');
+        Route::get('/videos', 'VideoController@paginateAllVideos');
+        Route::get('/guests', 'GuestController@paginateAllGuests');
+        Route::get('/episodes', 'EpisodeController@paginateAllEpisodes');
+        Route::get('/gallery', 'GalleryController@paginateAllGallery');
+        Route::get('/testimonials','TestimonialController@paginateAllTestimonials');
     });
     Route::get('/logout','AdminAuth\AuthController@logout');
+
 });

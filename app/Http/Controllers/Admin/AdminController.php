@@ -20,13 +20,13 @@ class AdminController extends Controller
         $this->middleware('admin');
     }
     public function dashboard(){
-        $phrases=Biography::where('id', '<',5)->get();
-        $videos=Video::where('id', '<',5)->get();
-        $guests=Guest::where('id', '<',5)->get();
-        $episodes=Episode::where('id', '<',5)->get();
-        $albums=Album::where('id', '<',5)->get();
-        $testimonials=Testimonial::where('id', '<',5)->get();
-        $personal_info=Personal::where('id','<',5)->get();
+        $phrases=Biography::take(3)->get();
+        $videos=Video::take(3)->get();
+        $guests=Guest::take(3)->get();
+        $episodes=Episode::take(3)->get();
+        $albums=Album::take(3)->get();
+        $testimonials=Testimonial::take(3)->get();
+        $personal_info=Personal::take(3)->get();
         $data=array('personal' =>$personal_info,
             'biography'=>$phrases,
             'video'=>$videos,

@@ -125,8 +125,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'selectedPhotos' => [
+            'required_without_all:title,description,photos.*' => 'to submit enter any field even if deleting any image',
         ],
     ],
 

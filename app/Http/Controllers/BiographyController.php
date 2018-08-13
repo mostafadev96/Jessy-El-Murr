@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Biography;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class BiographyController extends Controller
 {
@@ -29,7 +30,7 @@ class BiographyController extends Controller
      */
     public function create()
     {
-        //
+        return view('Admin_pages.Add_Element.addbiography');
     }
 
     /**
@@ -40,7 +41,14 @@ class BiographyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'phrase' => 'required',
+        ]);
+        $phraseData=$request->input('phrase');
+        $phrase=new Biography;
+        $phrase->phrase=$phraseData;
+        $phrase->save();
+        return redirect('/dashboard/biography/create')->with('success', 'you have added a new biography statement');
     }
 
     /**
@@ -51,7 +59,7 @@ class BiographyController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**
@@ -62,7 +70,12 @@ class BiographyController extends Controller
      */
     public function edit($id)
     {
-        //
+        $bio=Biography::find($id);
+        $result='no';
+        if($bio){
+            $result=$bio;
+        }
+        return  view('Admin_pages.Edit_Element.editbiography', ['bio' => $result,'id'=>$id]);
     }
 
     /**
@@ -74,7 +87,16 @@ class BiographyController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $bio=Biography::find($id);
+        $request->validate([
+            'phrase' => 'required',
+        ]);
+        $phraseData=$request->input('phrase');
+
+        $bio->phrase=$phraseData;
+        $bio->save();
+
+        return redirect('/dashboard/biography/'.$id.'/edit')->with('success', 'you have edited the phrase');
     }
 
     /**
@@ -85,6 +107,21 @@ class BiographyController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $bio=Biography::find($id);
+        $bio->delete();
+        return redirect()->back()->with('delete', 'your deletion is done successfully');
+    }
+
+    public function paginateAllBiography(Request $request)
+    {
+        $noOfitems=12;
+        if($request->has('biopage')) {
+            if($request->biopage<1 || $request->biopage>ceil(Biography::count()/$noOfitems)){
+                throw new NotFoundHttpException('Not found');
+            }
+        }
+        $bio = Biography::paginate(12,['*'],'biopage');
+        return view('Admin_pages.All_Tables.biography', ['bio' => $bio]);
+//        return $episodes;
     }
 }

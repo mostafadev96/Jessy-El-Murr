@@ -93,11 +93,11 @@
                                     @for($i=0;$i<$data->lsidegallery->size;$i++)
                                         @if($i==0)
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src={{$data->lsidegallery->photos[$i]->photo }}>
+                                                <img class="d-block w-100" src={{asset($data->lsidegallery->photos[$i]->photo) }}>
                                             </div>
                                         @else
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src={{$data->lsidegallery->photos[$i]->photo }}>
+                                                <img class="d-block w-100" src={{asset($data->lsidegallery->photos[$i]->photo) }}>
                                             </div>
                                         @endif
                                     @endfor
@@ -148,11 +148,11 @@
                                     @for($i=0;$i<$data->rsidegallery->size;$i++)
                                         @if($i==0)
                                             <div class="carousel-item active">
-                                                <img class="d-block w-100" src={{$data->rsidegallery->photos[$i]->photo }}>
+                                                <img class="d-block w-100" src={{asset($data->rsidegallery->photos[$i]->photo) }}>
                                             </div>
                                         @else
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src={{$data->rsidegallery->photos[$i]->photo }}>
+                                                <img class="d-block w-100" src={{asset($data->rsidegallery->photos[$i]->photo) }}>
                                             </div>
                                         @endif
                                     @endfor
@@ -204,11 +204,11 @@
                                         @for($i=0;$i<$post->size;$i++)
                                             @if($i==0)
                                                 <div class="carousel-item active">
-                                                    <img class="d-block w-100" src={{$post->photos[$i]->photo }}>
+                                                    <img class="d-block w-100" src={{asset($post->photos[$i]->photo) }}>
                                                 </div>
                                             @else
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src={{$post->photos[$i]->photo }}>
+                                                    <img class="d-block w-100" src={{asset($post->photos[$i]->photo) }}>
                                                 </div>
                                             @endif
                                         @endfor

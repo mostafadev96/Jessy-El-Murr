@@ -90,6 +90,16 @@ $(document).ready(function () {
     $(window).resize(function () {
         resizeElements();
     });
+    $('li').click(function(){
+        if($('li.selected').html()==='Personal'||$('li.selected').html()==='Biography'){
+            $('#query').attr("placeholder", "No need to write search item");
+            $("#query").prop('disabled', true);
+        }
+        else{
+            $('#query').attr("placeholder", "Search for specific element");
+            $("#query").prop('disabled', false);
+        }
+    });
 
     $('#submitquery').click(function (e) {
         if( !$('#query').val() && ($('li.selected').html()!=='Personal' && $('li.selected').html()!=='Biography')) {
@@ -122,19 +132,28 @@ $(document).ready(function () {
                         for(var i=0;i<keys.length;i++){
                             table+="<th class='text-left'>"+keys[i]+"</th>";
                         }
-                        table+="<th>Edit</th></tr></thead><tbody>";
+                        table+="<th>Edit</th><th>Delete</th></tr></thead><tbody>";
                         for(var i=0;i<result.data.length;i++){
                             table+="<tr>";
                             for(var j=0;j<keys.length;j++){
-                                table+="<td style='overflow:hidden;'><h5 style='max-width:300px;color:#808080'>"+result.data[i][keys[j]]+"</h5></td>";
+                                if(keys[j]==="photo"){
+                                    table+="<td><img src='/"+result.data[i][keys[j]]+"' style='width: 200px;height: 200px;max-width: none;'>"+"</td>";
+                                }
+                                else{
+                                    table+="<td style='overflow:hidden;'><h5 style='max-width:300px;color:#808080'>"+result.data[i][keys[j]]+"</h5></td>";
+                                }
                             }
-                            var href=result.type;
+                            var href="/dashboard/"+result.type;
                             table+="<td>"+"<a href='"+href+"/"+result.data[i]['id']+"/edit'"+" class='au-btn au-btn-icon au-btn--green au-btn--small'>Edit</a>"+"</td>";
+                            table+="<td>"+"<form style='margin: 0' action='"+href+"/"+result.data[i]['id']+"' method='post' >";
+                            table+="<input type='hidden' name='_token' value='"+$('meta[name=csrf-token]').attr("content")+"'>";
+                            table+="<input type='hidden' name='_method' value='DELETE'>";
+                            table+="<button type='submit'"+" class='au-btn au-btn-icon au-btn--blue au-btn--small'>Delete</button>";
+                            table+="</form>"+"</td>";
                             table+="</tr>"
                         }
                         table+="</tbody>";
-                        console.log(table);
-                        console.log(result.data);
+                        jQuery('div > table').append(table);
                     }
                 }
             });

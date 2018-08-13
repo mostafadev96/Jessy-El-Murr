@@ -34,7 +34,7 @@ class TestimonialController extends Controller
      */
     public function create()
     {
-        //
+        return view('Admin_pages.Add_Element.addtestimonial');
     }
 
     /**
@@ -45,7 +45,22 @@ class TestimonialController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'photo' => 'required|image|mimes:jpeg,bmp,png|max:3000',
+        ]);
+        $path='visitor/imgs/testimonials/';
+        $nameData=$request->name;
+        $descriptionData=$request->description;
+        $testimonial=new Testimonial;
+        $testimonial->name=$nameData;
+        $testimonial->description=$descriptionData;
+        $testimonial->save();
+        $request->photo->move(public_path($path), $testimonial->id.'.png');
+        $testimonial->photo=$path.$testimonial->id.'.png';
+        $testimonial->save();
+        return redirect('/dashboard/testimonial/create')->with('success', 'you have added a new testimonial with name: '.$nameData);
     }
 
     /**
@@ -67,7 +82,12 @@ class TestimonialController extends Controller
      */
     public function edit($id)
     {
-        //
+        $testimon=Testimonial::find($id);
+        $result='no';
+        if($testimon){
+            $result=$testimon;
+        }
+        return  view('Admin_pages.Edit_Element.edittestimonial', ['testimonial' => $result,'id'=>$id]);
     }
 
     /**
@@ -79,7 +99,26 @@ class TestimonialController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => 'required_without_all:description,photo',
+            'description' => 'required_without_all:name,photo',
+            'photo' => 'required_without_all:name,description|image|mimes:jpeg,bmp,png|max:3000',
+        ]);
+        $testimon=Testimonial::find($id);
+        $path='visitor/imgs/episodes/';
+        if($request->input('name')!=""){
+            $testimon->name=$request->name;
+        }
+        if($request->input('description')!=""){
+            $testimon->description=$request->description;
+        }
+        if($request->hasFile('photo')){
+            unlink($testimon->photo);
+            $request->photo->move(public_path($path), $id.'.png');
+            $testimon->photo=$path.$id.'.png';
+        }
+        $testimon->save();
+        return redirect('/dashboard/testimonial/'.$id.'/edit')->with('success', 'you have edited testimonial info');
     }
 
     /**
@@ -90,6 +129,23 @@ class TestimonialController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $testim=Testimonial::find($id);
+        unlink($testim->photo);
+        $testim->delete();
+        return redirect()->back()->with('delete', 'your deletion is done successfully');
+    }
+
+    public function paginateAllTestimonials(Request $request)
+    {
+        $noOfitems=12;
+        if($request->has('testimonialpage')) {
+            if($request->testimonialpage<1 || $request->testimonialpage>ceil(Testimonial::count()/$noOfitems)){
+                throw new NotFoundHttpException('Not found');
+
+            }
+        }
+        $testimonials = Testimonial::paginate(12,['*'],'testimonialpage');
+        return view('Admin_pages.All_Tables.testimonials', ['testimonials' => $testimonials]);
+//        return $testimonials;
     }
 }
