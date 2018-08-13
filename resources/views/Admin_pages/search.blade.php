@@ -26,8 +26,8 @@
                             </div>
                             <input id="query" type="text" placeholder="No need to write search item" disabled/>
                             <button id="submitquery" type="button" value="Search">Search</button>
-                            <div id="loading"></div>
                         </form>
+                        <div id="loading"></div>
                     </div>
                 </div>
                 <div class="row">
