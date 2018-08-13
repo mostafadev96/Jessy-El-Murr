@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d10ec-a9c9-4232-9a1f-40c3b852516d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/AdminStyles/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Visitor_pages/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Visitor_pages/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Visitor_pages/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,26 +47,43 @@
       <file leaf-file-name="adminmaster.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="60" column="67" lean-forward="true" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+            <state relative-caret-position="439">
+              <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="303">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-face.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/AdminStyles/css/font-face.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -96,7 +112,6 @@
       <list>
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/app.css" />
         <option value="$PROJECT_DIR$/resources/views/footer.blade.php" />
         <option value="$PROJECT_DIR$/public/css/app.css" />
@@ -107,6 +122,10 @@
         <option value="$PROJECT_DIR$/resources/views/firstpart.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/home.css" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" />
+        <option value="$PROJECT_DIR$/public/AdminStyles/js/search.js" />
       </list>
     </option>
   </component>
@@ -222,39 +241,34 @@
             <path>
               <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminStyles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminStyles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminStyles" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminStyles" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
@@ -295,12 +309,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\laravel\Jessy_ElMurr\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\laravel\New folder\Jessy-El-Murr\public\AdminStyles\images" />
       <recent name="E:\laravel\Jessy_ElMurr\public" />
       <recent name="E:\laravel\Jessy_ElMurr\resources\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\laravel\Jessy_ElMurr\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +350,7 @@
       <workItem from="1532529018217" duration="1408000" />
       <workItem from="1532581225950" duration="1275000" />
       <workItem from="1533511757374" duration="1140000" />
-      <workItem from="1534169241031" duration="1036000" />
+      <workItem from="1534169241031" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -351,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532583640848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1534171316542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534171316542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61118000" />
+    <option name="totallyTimeSpent" value="63619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,24 +422,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first button" />
-    <option name="LAST_COMMIT_MESSAGE" value="first button" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/secon.png" />
-    <entry file="file://$PROJECT_DIR$/public/jessy1.png" />
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/public/firstbackground.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/secondpart.blade.php" />
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/firstpart.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/css/app.css" />
     <entry file="file://$PROJECT_DIR$/public/jessy1.png" />
@@ -530,17 +538,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/css/home.css" />
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminAuth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        <state relative-caret-position="510">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="60" column="67" lean-forward="true" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+        <state relative-caret-position="493">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/css/font-face.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/6.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/30.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

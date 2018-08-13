@@ -108,6 +108,7 @@ $(document).ready(function () {
             $('div > table').append("<thead><tr><th style='color: red;'>Please enter a valid search item </th></tr></thead>");
         }
         else {
+            $('#loading').html('<img src="/AdminStyles/images/30.gif">');
             e.preventDefault();
             $.ajaxSetup({
                 headers: {
@@ -153,6 +154,7 @@ $(document).ready(function () {
                             table+="</tr>"
                         }
                         table+="</tbody>";
+                        $('#loading').html('');
                         jQuery('div > table').append(table);
                     }
                 }
