@@ -22,10 +22,11 @@ Route::get('/admin', 'AdminAuth\AuthController@showLogin');
 Route::post('/admin', 'AdminAuth\AuthController@login');
 Route::get('/c',function(){
     \App\User::create([
-        'name' => "pop",
-        'email' => "pop1@p.com",
-        'password' => Hash::make("pop1"),
+        'name' => "mostafa",
+        'email' => "mostafa@p.com",
+        'password' => Hash::make("mostafa1"),
         'photo' => "Hello",
+        'role'=>"a"
     ]);
     return redirect('/admin');
 });

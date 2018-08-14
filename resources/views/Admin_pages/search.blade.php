@@ -24,6 +24,7 @@
                                     <li>Testimonial</li>
                                 </ul>
                             </div>
+                            <input id="role" type="hidden" value="{{Auth::guard('admin')->user()->role}}">
                             <input id="query" type="text" placeholder="No need to write search item" disabled/>
                             <button id="submitquery" type="button" value="Search">Search</button>
                         </form>

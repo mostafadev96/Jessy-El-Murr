@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31d10ec-a9c9-4232-9a1f-40c3b852516d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/AdminStyles/images/Rolling-1s-96px.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/AdminStyles/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,29 +48,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="286">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminmaster.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addtestimonial.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+            <state relative-caret-position="343">
+              <caret line="149" column="29" lean-forward="true" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
@@ -68,23 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
+      <file leaf-file-name="editgallery.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-              <folding>
-                <element signature="e#1490#1554#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-face.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/AdminStyles/css/font-face.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <state relative-caret-position="170">
+              <caret line="100" selection-start-line="100" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -123,10 +135,25 @@
         <option value="$PROJECT_DIR$/resources/views/firstpart.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/home.css" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/public/AdminStyles/css/font-face.css" />
-        <option value="$PROJECT_DIR$/public/AdminStyles/js/search.js" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" />
+        <option value="$PROJECT_DIR$/public/AdminStyles/js/search.js" />
       </list>
     </option>
   </component>
@@ -242,6 +269,17 @@
             <path>
               <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,6 +326,22 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="Admin_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Add_Element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jessy-El-Murr" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Edit_Element" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jessy-El-Murr" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +405,8 @@
       <workItem from="1532529018217" duration="1408000" />
       <workItem from="1532581225950" duration="1275000" />
       <workItem from="1533511757374" duration="1140000" />
-      <workItem from="1534169241031" duration="4794000" />
+      <workItem from="1534169241031" duration="6911000" />
+      <workItem from="1534250409909" duration="1906000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -388,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534173903095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="search form">
+      <created>1534174369710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534174369710</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64876000" />
+    <option name="totallyTimeSpent" value="68899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,10 +476,9 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -427,6 +488,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,63 +504,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="search form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/public/jessy1.png" />
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/public/firstbackground.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/secondpart.blade.php" />
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/firstpart.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/footer.blade.php" />
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="6" column="963" selection-start-line="6" selection-start-column="963" selection-end-line="6" selection-end-column="963" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/footer.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/JMurrlogo.png">
       <provider selected="true" editor-type-id="images" />
@@ -563,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/css/font-face.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -579,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/adminmaster.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="612">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -590,13 +588,144 @@
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/30.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/Rolling.gif">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/Rolling.gif" />
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="114" column="44" lean-forward="true" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="88" column="44" lean-forward="true" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="100" selection-start-line="100" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+        <state relative-caret-position="343">
+          <caret line="149" column="29" lean-forward="true" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
@@ -604,16 +733,6 @@
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h5#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#1490#1554#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
