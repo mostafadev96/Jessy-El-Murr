@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e31d10ec-a9c9-4232-9a1f-40c3b852516d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/AdminStyles/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/AdminStyles/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addgallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addguest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addpersonal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addvideo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editbiography.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editepisode.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editguest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editpersonal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/edittestimonial.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +34,17 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -60,8 +52,17 @@
       <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="340">
+              <caret line="26" column="100" lean-forward="true" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/sidebar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -75,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/AdminStyles/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
@@ -95,7 +96,7 @@
       <file leaf-file-name="editgallery.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-51">
               <caret line="100" selection-start-line="100" selection-end-line="101" />
             </state>
           </provider>
@@ -151,9 +152,10 @@
         <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addepisode.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addbiography.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php" />
         <option value="$PROJECT_DIR$/public/AdminStyles/js/search.js" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php" />
       </list>
     </option>
   </component>
@@ -406,7 +408,7 @@
       <workItem from="1532581225950" duration="1275000" />
       <workItem from="1533511757374" duration="1140000" />
       <workItem from="1534169241031" duration="6911000" />
-      <workItem from="1534250409909" duration="1906000" />
+      <workItem from="1534250409909" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary="first button">
       <created>1532581315844</created>
@@ -450,11 +452,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534174369710</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="search form">
+      <created>1534252366330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534252366330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="search form">
+      <created>1534252992324</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534252992324</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68899000" />
+    <option name="totallyTimeSpent" value="70271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +520,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="search form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/footer.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/JMurrlogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -589,13 +604,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/AdminStyles/images/Rolling.gif" />
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editvideo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -694,31 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="100" selection-start-line="100" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Add_Element/addtestimonial.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="60" column="64" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -734,6 +721,41 @@
             <element signature="n#style#0;n#h5#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#td#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/Edit_Element/editgallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="100" selection-start-line="100" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="100" lean-forward="true" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin_pages/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>

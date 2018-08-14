@@ -8,7 +8,7 @@
             </div>
             <div class="header-button2">
 
-                <a class="header-button-item " href="https://github.com/mostafapop96?tab=repositories"><i class="fab fa-github"></i>
+                <a class="header-button-item " href="https://github.com/mostafapop96"><i class="fab fa-github"></i>
                 </a>
                 <div class="header-button-item mr-0 js-sidebar-btn">
                     <i class="fas fa-bars"></i>
