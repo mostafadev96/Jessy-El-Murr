@@ -20,16 +20,6 @@ Route::get('/gallery', 'GalleryController@index');
 //Route::get('/testimonials','TestimonialController@index');
 Route::get('/admin', 'AdminAuth\AuthController@showLogin');
 Route::post('/admin', 'AdminAuth\AuthController@login');
-Route::get('/c',function(){
-    \App\User::create([
-        'name' => "mostafa",
-        'email' => "mostafa@p.com",
-        'password' => Hash::make("mostafa1"),
-        'photo' => "Hello",
-        'role'=>"a"
-    ]);
-    return redirect('/admin');
-});
 Route::group(['middleware' => ['admin']],function(){
     Route::get('/dashboard','Admin\AdminController@dashboard');
     Route::group(['prefix' => 'dashboard'],function(){
